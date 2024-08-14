@@ -2,6 +2,8 @@ tap "databricks/tap"
 tap "homebrew/bundle"
 tap "jesseduffield/lazygit"
 
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
 brew "btop"
 brew "glib"
 brew "cmake"

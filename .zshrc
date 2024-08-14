@@ -11,12 +11,11 @@ alias g=git
 eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(starship init zsh)"
 
-
+source <(fzf --zsh)
 # activate plugins
-source $HOME/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source $HOME/.config/zsh/plugins/zsh-fzf-history-search/zsh-fzf-history-search.zsh
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # this one must be at the bottom
-source $HOME/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 eval "$(pyenv init -)"
 eval "$(pyenv init --path)"
