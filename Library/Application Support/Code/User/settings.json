@@ -1,0 +1,131 @@
+{
+  "terminal.integrated.bellDuration": 1000,
+  "zenMode.fullScreen": false,
+  "editor.accessibilitySupport": "off",
+  "workbench.colorTheme": "Catppuccin Latte",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "editor.formatOnSave": true,
+  "files.trimFinalNewlines": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "python.venvPath": "~/Library/Caches/pypoetry/virtualenvs",
+  "editor.minimap.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "python.analysis.autoImportCompletions": false,
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnType": true
+  },
+  "editor.rulers": [
+    88,
+    120
+  ],
+  "vim.leader": "<Space>",
+  "jupyter.askForKernelRestart": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "svelte.enable-ts-plugin": true,
+  "svelte.plugin.svelte.format.config.singleQuote": true,
+  "svelte.plugin.svelte.format.config.svelteBracketNewLine": false,
+  "notebook.output.textLineLimit": 1000,
+  "notebook.formatOnSave.enabled": true,
+  "editor.lightbulb.enabled": "off",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "editor.unicodeHighlight.allowedLocales": {
+    "ru": true
+  },
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "yaml": true,
+    "go": true,
+    "asciidoc": false
+  },
+  "go.formatTool": "gofumpt",
+  "go.testEnvVars": {},
+  "python.interpreter.infoVisibility": "always",
+  "git.openRepositoryInParentFolders": "never",
+  "vim.neovimConfigPath": "$HOME/.config/nvim/init.lua",
+  "go.testTimeout": "10s",
+  "flake8.args": [
+    "--max-line-length=88"
+  ],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "gitblame.inlineMessageMargin": 4,
+  "gitblame.statusBarMessageFormat": "${author.name} (${author.date} ${time.ago})",
+  "gitblame.ignoreWhitespace": true,
+  "gitblame.inlineMessageFormat": "${author.name} (${author.date} ${time.ago})",
+  "go.testFlags": [
+    "-count=1",
+    "-v"
+  ],
+  "vscode-kubernetes.log-viewer.follow": true,
+  "vscode-kubernetes.log-viewer.timestamp": false,
+  "vscode-kubernetes.log-viewer.since": -1,
+  "vscode-kubernetes.log-viewer.tail": 300,
+  "vscode-kubernetes.log-viewer.destination": "Webview",
+  "vscode-kubernetes.log-viewer.wrap": false,
+  "yaml.format.bracketSpacing": false,
+  "asciidoc.extensions.enableKroki": true,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.enablePersistentSessions": false,
+  "notebook.lineNumbers": "on",
+  "git.terminalGitEditor": true,
+  "git.pruneOnFetch": true,
+  "gitblame.inlineMessageEnabled": true,
+  "markdown.marp.enableHtml": true,
+  "accessibility.signals.terminalBell": {
+    "sound": "on"
+  },
+  "terminal.integrated.enableVisualBell": true,
+  "flake8.ignorePatterns": [
+    "E203"
+  ],
+  "extensions.ignoreRecommendations": true,
+  "editor.lineNumbers": "relative",
+  "gopls": {
+    "ui.codelenses": {
+      "gc_details": true
+    },
+    "ui.diagnostic.annotations": {
+      "escape": true
+    }
+  },
+  "rust-analyzer.diagnostics.previewRustcOutput": true,
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+  "rust-analyzer.inlayHints.chainingHints.enable": false,
+  "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+  "rust-analyzer.inlayHints.parameterHints.enable": false,
+  "rust-analyzer.inlayHints.renderColons": false,
+  "errorLens.removeLinebreaks": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "haskell.manageHLS": "GHCup",
+  "editor.fontSize": 13,
+  "rust-analyzer.lens.implementations.enable": false,
+  "rust-analyzer.hover.actions.implementations.enable": false,
+  "sqltools.formatLanguages": [],
+  "customLocalFormatters.formatters": [
+    {
+      "command": "sqlfmt -",
+      "languages": [
+        "sql"
+      ]
+    }
+  ],
+  "[sql]": {
+    "editor.defaultFormatter": "jkillian.custom-local-formatters"
+  },
+}
