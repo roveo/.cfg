@@ -13,6 +13,8 @@ vim.opt.cursorline = true
 vim.opt.scrolloff = 10
 vim.opt.splitright = true
 vim.opt.splitbelow = true
+vim.opt.colorcolumn = "88,120"
+vim.opt.undofile = true
 
 vim.wo.wrap = false
 
@@ -23,4 +25,3 @@ require("roveo.plugins")
 require("roveo.colorscheme")
 require("roveo.map")
 require("roveo.lsp")
-

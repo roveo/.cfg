@@ -2,7 +2,6 @@
   "terminal.integrated.bellDuration": 1000,
   "zenMode.fullScreen": false,
   "editor.accessibilitySupport": "off",
-  "workbench.colorTheme": "Catppuccin Latte",
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "editor.formatOnSave": true,
@@ -128,4 +127,7 @@
   "[sql]": {
     "editor.defaultFormatter": "jkillian.custom-local-formatters"
   },
+  "workbench.colorTheme": "Catppuccin Latte",
+  "python.analysis.extraPaths": [],
+  "git.autofetch": true,
 }

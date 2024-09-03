@@ -33,10 +33,13 @@ require("formatter").setup({
 		sql = {
 			function()
 				return {
-					exe = "sqlfmt -",
+					exe = "sqlfluff fix -",
 					stdin = true,
 				}
 			end,
+		},
+		["*"] = {
+			require("formatter.filetypes.any").remove_trailing_whitespace,
 		},
 	},
 })
