@@ -4,7 +4,7 @@ autoload -U compinit; compinit
 # use emacs-style shortcuts, not vi
 bindkey -e
 
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias config='lazygit --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias v=nvim
 alias g=git
 
@@ -24,4 +24,3 @@ eval "$(zoxide init --cmd cd zsh)"
 export PATH=$(go env GOPATH)/bin:$HOME/bin:$HOME/.local/bin:$PATH
 
 JAVA_HOME=$(/usr/libexec/java_home)
-
