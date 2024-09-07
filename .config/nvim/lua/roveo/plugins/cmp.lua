@@ -2,7 +2,7 @@ local cmp = require("cmp")
 
 cmp.setup({
 	completion = {
-		keyword_length = 1,
+		keyword_length = 2,
 	},
 	snippet = {
 		expand = function(args)
@@ -20,7 +20,7 @@ cmp.setup({
 		["<C-e>"] = cmp.mapping.close(),
 	},
 	sources = {
-		{ name = "nvim_lsp", keyword_length = 1 },
-		{ name = "buffer", keyword_length = 1 },
+		{ name = "nvim_lsp", keyword_length = 2 },
+		{ name = "buffer", keyword_length = 3 },
 	},
 })
