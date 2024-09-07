@@ -1,5 +1,14 @@
 local telescope = require("telescope")
-telescope.setup()
+telescope.setup({
+	defaults = {
+		file_ignore_patterns = { "node_modules", "%.git", ".*%.pyc" },
+	},
+	pickers = {
+		find_files = {
+			hidden = true,
+		},
+	},
+})
 
 local builtin = require("telescope.builtin")
 
