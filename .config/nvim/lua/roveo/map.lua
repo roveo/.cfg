@@ -22,6 +22,10 @@ vim.keymap.set("n", "<C-i>", "<cmd>FloatermToggle<CR>")
 -- show doc hover
 vim.keymap.set("n", "<leader>h", vim.lsp.buf.hover)
 
+-- close buffers
+vim.keymap.set("n", "<leader>x", "<cmd>bd<CR>") -- one
+vim.keymap.set("n", "<leader>X", "<cmd>%bd<CR>") -- all
+
 -- when in visual [block] mode, replace selection when p instead of pasting after
 vim.keymap.set("x", "p", '"_dPj')
 

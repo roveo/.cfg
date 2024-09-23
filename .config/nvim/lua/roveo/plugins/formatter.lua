@@ -1,5 +1,7 @@
 local go = require("formatter.filetypes.go")
 local rust = require("formatter.filetypes.rust")
+local sql = require("formatter.filetypes.sql")
+local util = require("formatter.util")
 
 require("formatter").setup({
 	filetype = {
@@ -31,12 +33,7 @@ require("formatter").setup({
 			rust.cargoFmt,
 		},
 		sql = {
-			function()
-				return {
-					exe = "sqlfluff fix -",
-					stdin = true,
-				}
-			end,
+			sql.sqlfluff,
 		},
 		["*"] = {
 			require("formatter.filetypes.any").remove_trailing_whitespace,
