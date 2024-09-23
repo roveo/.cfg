@@ -1,4 +1,6 @@
 local telescope = require("telescope")
+local actions = require("telescope.actions")
+
 telescope.setup({
 	defaults = {
 		file_ignore_patterns = { "node_modules", "%.git", ".*%.pyc" },
@@ -6,6 +8,12 @@ telescope.setup({
 	pickers = {
 		find_files = {
 			hidden = true,
+		},
+	},
+	mappings = {
+
+		i = {
+			["C-d"] = actions.delete_buffer,
 		},
 	},
 })
